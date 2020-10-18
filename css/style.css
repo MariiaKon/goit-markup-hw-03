@@ -1,0 +1,362 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "roboto", sans-serif;
+}
+
+/* raleway-700 - latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/raleway/raleway-v18-latin-700.eot');
+  src: local(''),
+       url('../fonts/raleway/raleway-v18-latin-700.eot?#iefix') format('embedded-opentype'), 
+       url('../fonts/raleway/raleway-v18-latin-700.woff2') format('woff2'), 
+       url('../fonts/raleway/raleway-v18-latin-700.woff') format('woff'), 
+       url('../fonts/raleway/raleway-v18-latin-700.ttf') format('truetype'),
+       url('../fonts/raleway/raleway-v18-latin-700.svg#Raleway') format('svg'); 
+}
+
+/* roboto-regular - latin_cyrillic */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto/roboto-v20-latin_cyrillic-regular.eot");
+  src: local("Roboto"), local("Roboto-Regular"),
+    url("../fonts/roboto/roboto-v20-latin_cyrillic-regular.eot?#iefix")
+      format("embedded-opentype"),
+      url("../fonts/roboto/roboto-v20-latin_cyrillic-regular.woff2")
+      format("woff2"),
+      url("../fonts/roboto/roboto-v20-latin_cyrillic-regular.woff")
+      format("woff"),
+      url("../fonts/roboto/roboto-v20-latin_cyrillic-regular.ttf")
+      format("truetype"),
+      url("../fonts/roboto/roboto-v20-latin_cyrillic-regular.svg#Roboto")
+      format("svg"); 
+}
+/* roboto-500 - latin_cyrillic */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/roboto/roboto-v20-latin_cyrillic-500.eot");
+  src: local("Roboto Medium"), local("Roboto-Medium"),
+    url("../fonts/roboto/roboto-v20-latin_cyrillic-500.eot?#iefix")
+      format("embedded-opentype"),
+      url("../fonts/roboto/roboto-v20-latin_cyrillic-500.woff2")
+      format("woff2"),
+      url("../fonts/roboto/roboto-v20-latin_cyrillic-500.woff") format("woff"),
+      url("../fonts/roboto/roboto-v20-latin_cyrillic-500.ttf")
+      format("truetype"),
+      url("../fonts/roboto/roboto-v20-latin_cyrillic-500.svg#Roboto")
+      format("svg");
+}
+/* roboto-700 - latin_cyrillic */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/roboto/roboto-v20-latin_cyrillic-700.eot"); 
+  src: local("Roboto Bold"), local("Roboto-Bold"),
+    url("../fonts/roboto/roboto-v20-latin_cyrillic-700.eot?#iefix")
+      format("embedded-opentype"),
+      url("../fonts/roboto/roboto-v20-latin_cyrillic-700.woff2")
+      format("woff2"),
+      url("../fonts/roboto/roboto-v20-latin_cyrillic-700.woff") format("woff"),
+      url("../fonts/roboto/roboto-v20-latin_cyrillic-700.ttf")
+      format("truetype"),
+      url("../fonts/roboto/roboto-v20-latin_cyrillic-700.svg#Roboto")
+      format("svg");
+}
+/* roboto-900 - latin_cyrillic */
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/roboto/roboto-v20-latin_cyrillic-900.eot");
+  src: local("Roboto Black"), local("Roboto-Black"),
+    url("../fonts/roboto/roboto-v20-latin_cyrillic-900.eot?#iefix")
+      format("embedded-opentype"),
+      url("../fonts/roboto/roboto-v20-latin_cyrillic-900.woff2")
+      format("woff2"),
+      url("../fonts/roboto/roboto-v20-latin_cyrillic-900.woff") format("woff"),
+      url("../fonts/roboto/roboto-v20-latin_cyrillic-900.ttf")
+      format("truetype"),
+      url("../fonts/roboto/roboto-v20-latin_cyrillic-900.svg#Roboto")
+      format("svg");
+}
+
+:root {
+  --title-black: #212121;
+  --text-grey: #757575;
+  --bg-main: #e5e5e5;
+  --white: #ffffff;
+  --bg-grey: #f5f4fa;
+  --bg-dark: #2f303a;
+  --hover: #2196f3;
+  --contacts-footer: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  background: var(--white);
+  color: var(--text-grey);
+  font-family: Roboto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
+
+
+/*styles for header*/
+.header {
+  background-color: var(--white);
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+
+
+/*styles for logo*/
+.logo {
+  height: 31px;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+}
+.logo1 {
+  color: var(--hover);
+}
+.logo-type1 {
+  color: var(--title-black);
+}
+.logo-type2 {
+  color: var(--white);
+}
+
+
+/*styles for navigation links*/
+.nav li a {
+  color: var(--title-black);
+}
+.header-contacts a {
+  color: var(--text-grey);
+}
+
+
+/*styles for hero-section*/
+.hero {
+  background: var(--bg-dark);
+}
+.hero-title {
+  width: 696px;
+  height: 120px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white);
+}
+
+
+/*styles for buttons*/
+.order-button {
+  width: 200px;
+  height: 50px;
+  padding: 10px 32px;
+  border: 0;
+  border-radius: 4px;
+  background: var(--hover);
+  color: var(--white);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.filter-button {
+  height: 38px;
+  color: width: 84px;
+  padding: 6px 22px;
+  border: 0;
+  border-radius: 4px;
+  background: var(--bg-grey);
+  color: var(--title-black);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  align-items: center;
+  text-align: center;
+}
+
+
+/*styles for advantages section*/
+.advantages h3 {
+  width: 270px;
+  height: 16px;
+  font-weight: 700;
+  line-height: 1.143;
+  text-transform: uppercase;
+  color: var(--title-black);
+}
+.advantages p {
+  width: 270px;
+  height: 75px;
+  line-height: 1.71;
+}
+
+
+/*styles for what-are-we-doing section*/
+.manufacture h2 {
+  height: 42px;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.167;
+  color: var(--title-black);
+}
+.manufacture img {
+  width: 370px;
+  height: 294px;
+}
+
+
+/*styles for team section*/
+.team {
+  background: var(--bg-grey);
+}
+.team h2 {
+  height: 42px;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.167;
+  color: var(--title-black);
+}
+.team h3 {
+  height: 19px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.1875;
+  text-align: center;
+  color: var(--title-black);
+}
+.team img {
+  width: 270px;
+  height: 260px;
+}
+.team p {
+  height: 19px;
+  font-size: 16px;
+  line-height: 1.1875;
+  text-align: center;
+  color: var(--text-grey);
+}
+.card {
+  width: 270px;
+  height: 368px;
+  background: var(--white);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+
+/*styles for portfolio-container*/
+.portfolio h2 {
+height: 36px;
+font-weight: bold;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--title-black);
+}
+.portfolio p {
+height: 30px;
+font-weight: normal;
+font-size: 16px;
+line-height: 1.87;
+}
+.portfolio-item img {
+  width: 370px;
+  height: 294px;
+}
+.portfolio-item {
+width: 370px;
+height: 404px;
+background: var(--white);
+border: 1px solid #EEEEEE;
+box-sizing: border-box;
+}
+
+
+/*styles for footer*/
+.footer {
+  background: var(--bg-dark);
+}
+.adress-link {
+  width: 231px;
+  height: 21px;
+  font-style: normal;
+  line-height: 1.71;
+  color: var(--white);
+}
+.footer-mail,
+.footer-tel {
+  width: 231px;
+  height: 21px;
+  font-style: normal;
+  line-height: 1.71;
+  color: var(--contacts-footer);
+}
+
+
+/*styles for interractive elements*/
+.studio-link:hover,
+.studio-link:active,
+.studio-link:focus,
+.portfolio-link:hover,
+.portfolio-link:active,
+.portfolio-link:focus,
+.contacts-link:hover,
+.contacts-link:active,
+.contacts-link:focus,
+.header-mail:hover,
+.header-mail:active,
+.header-mail:focus,
+.header-tel:hover,
+.header-tel:focus,
+.header-tel:active,
+.footer-tel:active,
+.footer-tel:hover,
+.footer-tel:focus,
+.footer-mail:active,
+.footer-mail:hover,
+.footer-mail:focus,
+.adress-link:hover,
+.adress-link:active,
+.adress-link:focus {
+  color: var(--hover);
+}
+
+.order-button:hover,
+.order-button:active,
+.order-button:focus {
+  color: var(--hover);
+  background: var(--white);
+}
+.filter-button:hover,
+.filter-button:active,
+.filter-button:focus {
+  background: var(--hover);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  color: var(--white);
+}
