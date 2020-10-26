@@ -132,6 +132,7 @@ img {
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.02em;
+  border-bottom: 1px solid #eeeeee;
 }
 
 /*styles for logo*/
