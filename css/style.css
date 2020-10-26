@@ -116,7 +116,7 @@ img {
 }
 
 .container {
-  width: 1230px;
+  width: 1200px;
   padding: 0px 15px;
   margin-left: auto;
   margin-right: auto;
@@ -182,7 +182,6 @@ img {
 /*styles for hero-section*/
 .hero-section {
   background: var(--bg-dark);
-  margin-bottom: 94px;
 }
 .hero {
   min-height: 600px;
@@ -258,7 +257,7 @@ img {
 .advantages {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 94px;
+  padding: 94px 0px;
 }
 .advantages .list-item:not(:first-child) {
   margin-left: 30px;
